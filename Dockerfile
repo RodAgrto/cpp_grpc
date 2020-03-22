@@ -62,7 +62,7 @@ RUN \
  	&& make install
 		
 RUN apt-get clean \
-    && cd /temp \
+    && cd /tmp \
 	&& rm -R *
 
 # Install Bazel 
